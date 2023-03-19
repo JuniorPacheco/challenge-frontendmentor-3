@@ -1,0 +1,44 @@
+.countryCard {
+  transition: background 300ms ease;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#light .countryCard {
+  background-color: var(--White);
+}
+
+#dark .countryCard {
+  background-color: var(--Dark-Blue);
+}
+
+.countryCard__img {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.countryCard__img img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.countryCard__info {
+  padding: 20px 20px;
+}
+
+.countryCard__name {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.countryCard__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.countryCard__list-item span {
+  font-weight: bold;
+}
